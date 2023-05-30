@@ -1,0 +1,386 @@
+!SESSION 2023-03-24 14:49:37.190 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.ui 2 0 2023-03-24 14:49:43.419
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-03-24 14:49:43.419
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2023-03-24 14:49:43.719
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-03-24 14:49:43.719
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-03-24 14:49:48.309
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-03-24 14:49:48.315
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-03-24 14:49:48.318
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-03-24 14:49:48.319
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-03-24 14:49:48.329
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\FangRong2494'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:48.336
+!MESSAGE Eclipse Install location::file:/D:/ESP_IDE/esp/Espressif/tools/espressif-ide/2.5.0/
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:48.346
+!MESSAGE Updating environment variables with key:IDF_PATH value:D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4/
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:48.369
+!MESSAGE 执行 D:/ESP_IDE/esp/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.002
+!MESSAGE Not using an unsupported version of tool cmake found in PATH: 3.24.2. To use it, run 'D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools\idf_tools.py export --prefer-system'
+OPENOCD_SCRIPTS=D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+PATH=D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.003
+!MESSAGE Key: OPENOCD_SCRIPTS Value: D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.004
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.006
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.007
+!MESSAGE Updating environment variables with key:IDF_CCACHE_ENABLE value:1
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.009
+!MESSAGE Key: PATH Value: D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.010
+!MESSAGE Updating environment variables with key:PATH value:D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310;C:\Python27;D:\cmake-3.24.2-windows-x86_64\bin;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\bin;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\libexec\git-core;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Python27;C:\Users\FangRong2494\AppData\Local\Programs\Python\Launcher\;C:\Users\FangRong2494\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;;D:\ESP_IDE\esp\Espressif\tools\idf-git\2.34.2\cmd
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.771
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.772
+!MESSAGE idf_tools.py path: D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:49.774
+!MESSAGE [D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.289
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 3.24.2. To use it, run 'D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\\tools\idf_tools.py export --prefer-system'
+OPENOCD_SCRIPTS=D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+PATH=D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.289
+!MESSAGE PATH: D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.290
+!MESSAGE [D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.436
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.437
+!MESSAGE idf_tools.py path: D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.440
+!MESSAGE [D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.876
+!MESSAGE idf_tools.py export output: Not using an unsupported version of tool cmake found in PATH: 3.24.2. To use it, run 'D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\\tools\idf_tools.py export --prefer-system'
+OPENOCD_SCRIPTS=D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+PATH=D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.877
+!MESSAGE PATH: D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 14:49:50.877
+!MESSAGE [D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY org.eclipse.core.resources 4 372 2023-03-24 14:51:53.614
+!MESSAGE Project 'V2.1.0' is not open.
+!STACK 0
+java.lang.Exception: Project 'V2.1.0' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:392)
+	at com.espressif.idf.core.IDFProjectNature.hasNature(IDFProjectNature.java:50)
+	at com.espressif.idf.launch.serial.core.IDFLaunchDescriptorType.getDescriptor(IDFLaunchDescriptorType.java:36)
+	at org.eclipse.launchbar.core.internal.LaunchBarManager.launchObjectAdded(LaunchBarManager.java:356)
+	at org.eclipse.launchbar.core.internal.ProjectLaunchObjectProvider.lambda$0(ProjectLaunchObjectProvider.java:61)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.launchbar.core.internal.ProjectLaunchObjectProvider.resourceChanged(ProjectLaunchObjectProvider.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1505)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:313)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 372 2023-03-24 14:51:53.641
+!MESSAGE Project 'src' is not open.
+!STACK 0
+java.lang.Exception: Project 'src' is not open.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:148)
+	at org.eclipse.core.internal.resources.Project.getDescription(Project.java:392)
+	at com.espressif.idf.core.IDFProjectNature.hasNature(IDFProjectNature.java:50)
+	at com.espressif.idf.launch.serial.core.IDFLaunchDescriptorType.getDescriptor(IDFLaunchDescriptorType.java:36)
+	at org.eclipse.launchbar.core.internal.LaunchBarManager.launchObjectAdded(LaunchBarManager.java:356)
+	at org.eclipse.launchbar.core.internal.ProjectLaunchObjectProvider.lambda$0(ProjectLaunchObjectProvider.java:61)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.launchbar.core.internal.ProjectLaunchObjectProvider.resourceChanged(ProjectLaunchObjectProvider.java:55)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1505)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:313)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:253)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:205)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:01.772
+!MESSAGE Indexed 'coreMQTT' (35 sources, 15 headers) in 1.6 sec: 2,118 declarations; 13,771 references; 37 unresolved inclusions; 0 syntax errors; 1,954 unresolved names (11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:01.915
+!MESSAGE Indexed 'ota_mqtt_main' (3 sources, 3 headers) in 0.138 sec: 271 declarations; 839 references; 37 unresolved inclusions; 5 syntax errors; 476 unresolved names (30%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:02.382
+!MESSAGE Indexed 'coreMQTT-Agent_test' (30 sources, 10 headers) in 0.462 sec: 717 declarations; 2,309 references; 56 unresolved inclusions; 2 syntax errors; 1,620 unresolved names (35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:02.836
+!MESSAGE Indexed 'coreMQTT_test' (31 sources, 8 headers) in 0.448 sec: 971 declarations; 7,495 references; 47 unresolved inclusions; 0 syntax errors; 3,153 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:03.039
+!MESSAGE Indexed 'Jobs-for-AWS-IoT-embedded-sdk' (12 sources, 3 headers) in 0.199 sec: 414 declarations; 3,446 references; 16 unresolved inclusions; 0 syntax errors; 397 unresolved names (9.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:08.458
+!MESSAGE Indexed 'src' (298 sources, 203 headers) in 5.16 sec: 19,454 declarations; 96,616 references; 872 unresolved inclusions; 65 syntax errors; 19,532 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:08.560
+!MESSAGE Indexed 'unit-test' (2 sources, 1 headers) in 0.099 sec: 390 declarations; 3,048 references; 12 unresolved inclusions; 45 syntax errors; 1,006 unresolved names (23%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:08.603
+!MESSAGE Indexed 'http_mutual_auth' (3 sources, 2 headers) in 0.04 sec: 92 declarations; 293 references; 29 unresolved inclusions; 0 syntax errors; 202 unresolved names (34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:11.834
+!MESSAGE Indexed 'main' (294 sources, 199 headers) in 3.22 sec: 19,400 declarations; 95,940 references; 883 unresolved inclusions; 78 syntax errors; 19,413 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:11.909
+!MESSAGE Indexed 'ota-for-aws-iot-embedded-sdk_test' (5 sources, 2 headers) in 0.073 sec: 693 declarations; 3,101 references; 34 unresolved inclusions; 0 syntax errors; 1,727 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:11.948
+!MESSAGE Indexed 'jobs_main' (3 sources, 2 headers) in 0.036 sec: 213 declarations; 819 references; 30 unresolved inclusions; 11 syntax errors; 416 unresolved names (29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.097
+!MESSAGE Indexed 'test' (27 sources, 6 headers) in 0.147 sec: 621 declarations; 3,682 references; 57 unresolved inclusions; 45 syntax errors; 1,435 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.149
+!MESSAGE Indexed 'Device-Defender-for-AWS-IoT-embedded-sdk' (4 sources, 3 headers) in 0.049 sec: 263 declarations; 1,592 references; 7 unresolved inclusions; 0 syntax errors; 254 unresolved names (12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.195
+!MESSAGE Indexed 'ota_mqtt' (3 sources, 3 headers) in 0.044 sec: 271 declarations; 839 references; 37 unresolved inclusions; 5 syntax errors; 476 unresolved names (30%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.614
+!MESSAGE Indexed 'corePKCS11' (47 sources, 20 headers) in 0.415 sec: 2,899 declarations; 11,843 references; 172 unresolved inclusions; 6 syntax errors; 6,487 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.846
+!MESSAGE Indexed 'coreMQTT-Agent' (34 sources, 15 headers) in 0.23 sec: 1,203 declarations; 4,384 references; 54 unresolved inclusions; 2 syntax errors; 1,260 unresolved names (18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:12.888
+!MESSAGE Indexed 'Device-Defender-for-AWS-IoT-embedded-sdk_test' (3 sources, 0 headers) in 0.041 sec: 157 declarations; 831 references; 5 unresolved inclusions; 0 syntax errors; 172 unresolved names (15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.080
+!MESSAGE Indexed 'coreHTTP' (29 sources, 12 headers) in 0.189 sec: 1,138 declarations; 6,539 references; 53 unresolved inclusions; 0 syntax errors; 942 unresolved names (11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.144
+!MESSAGE Indexed 'Jobs-for-AWS-IoT-embedded-sdk_test' (11 sources, 2 headers) in 0.062 sec: 221 declarations; 2,393 references; 15 unresolved inclusions; 64 syntax errors; 541 unresolved names (17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.177
+!MESSAGE Indexed 'thing_shadow_main' (3 sources, 2 headers) in 0.031 sec: 177 declarations; 836 references; 30 unresolved inclusions; 6 syntax errors; 460 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.226
+!MESSAGE Indexed 'test_unit-test' (1 sources, 1 headers) in 0.046 sec: 588 declarations; 5,978 references; 10 unresolved inclusions; 0 syntax errors; 741 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.248
+!MESSAGE Indexed 'backoffAlgorithm_test' (1 sources, 1 headers) in 0.02 sec: 57 declarations; 236 references; 8 unresolved inclusions; 0 syntax errors; 54 unresolved names (16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.570
+!MESSAGE Indexed 'corePKCS11_test' (38 sources, 14 headers) in 0.32 sec: 2,055 declarations; 8,013 references; 160 unresolved inclusions; 10 syntax errors; 4,479 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.615
+!MESSAGE Indexed 'thing_shadow' (3 sources, 2 headers) in 0.043 sec: 177 declarations; 836 references; 30 unresolved inclusions; 6 syntax errors; 460 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.641
+!MESSAGE Indexed 'Device-Shadow-for-AWS-IoT-embedded-sdk_test_unit-test' (1 sources, 0 headers) in 0.024 sec: 80 declarations; 1,108 references; 4 unresolved inclusions; 0 syntax errors; 249 unresolved names (17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.722
+!MESSAGE Indexed 'coreMQTT-Agent_test_unit-test' (2 sources, 3 headers) in 0.059 sec: 440 declarations; 1,657 references; 17 unresolved inclusions; 2 syntax errors; 1,099 unresolved names (34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.922
+!MESSAGE Indexed 'ota-for-aws-iot-embedded-sdk' (16 sources, 21 headers) in 0.199 sec: 2,504 declarations; 10,330 references; 119 unresolved inclusions; 1 syntax errors; 1,893 unresolved names (13%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:13.977
+!MESSAGE Indexed 'ota_http_main' (4 sources, 4 headers) in 0.054 sec: 369 declarations; 1,136 references; 49 unresolved inclusions; 5 syntax errors; 683 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.080
+!MESSAGE Indexed 'corePKCS11_test_unit-test' (3 sources, 6 headers) in 0.101 sec: 1,140 declarations; 5,701 references; 32 unresolved inclusions; 5 syntax errors; 2,789 unresolved names (29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.103
+!MESSAGE Indexed 'posix_compat' (2 sources, 2 headers) in 0.021 sec: 34 declarations; 39 references; 8 unresolved inclusions; 0 syntax errors; 20 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.132
+!MESSAGE Indexed 'tls_mutual_auth' (2 sources, 1 headers) in 0.028 sec: 166 declarations; 654 references; 23 unresolved inclusions; 23 syntax errors; 311 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.161
+!MESSAGE Indexed 'backoffAlgorithm' (2 sources, 2 headers) in 0.027 sec: 86 declarations; 315 references; 10 unresolved inclusions; 0 syntax errors; 47 unresolved names (10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.203
+!MESSAGE Indexed 'Device-Shadow-for-AWS-IoT-embedded-sdk_test' (4 sources, 1 headers) in 0.041 sec: 103 declarations; 1,178 references; 11 unresolved inclusions; 0 syntax errors; 263 unresolved names (17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.350
+!MESSAGE Indexed 'coreJSON' (24 sources, 4 headers) in 0.146 sec: 1,062 declarations; 7,938 references; 26 unresolved inclusions; 0 syntax errors; 1,061 unresolved names (11%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.371
+!MESSAGE Indexed 'Device-Defender-for-AWS-IoT-embedded-sdk_test_unit-test' (1 sources, 0 headers) in 0.019 sec: 144 declarations; 791 references; 3 unresolved inclusions; 0 syntax errors; 162 unresolved names (15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.405
+!MESSAGE Indexed 'jobs' (3 sources, 2 headers) in 0.034 sec: 213 declarations; 819 references; 30 unresolved inclusions; 11 syntax errors; 416 unresolved names (29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.434
+!MESSAGE Indexed 'tls_mutual_auth_main' (2 sources, 1 headers) in 0.027 sec: 166 declarations; 654 references; 23 unresolved inclusions; 23 syntax errors; 311 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.507
+!MESSAGE Indexed 'ota-for-aws-iot-embedded-sdk_test_unit-test' (5 sources, 2 headers) in 0.071 sec: 693 declarations; 3,101 references; 34 unresolved inclusions; 0 syntax errors; 1,727 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.539
+!MESSAGE Indexed 'http_mutual_auth_main' (3 sources, 2 headers) in 0.029 sec: 92 declarations; 293 references; 29 unresolved inclusions; 0 syntax errors; 202 unresolved names (34%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.569
+!MESSAGE Indexed 'Jobs-for-AWS-IoT-embedded-sdk_test_unit-test' (1 sources, 1 headers) in 0.029 sec: 138 declarations; 2,051 references; 7 unresolved inclusions; 64 syntax errors; 427 unresolved names (16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.649
+!MESSAGE Indexed 'coreMQTT_test_unit-test' (3 sources, 3 headers) in 0.079 sec: 760 declarations; 6,929 references; 16 unresolved inclusions; 0 syntax errors; 2,809 unresolved names (27%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.698
+!MESSAGE Indexed 'ota_http' (4 sources, 4 headers) in 0.048 sec: 369 declarations; 1,136 references; 49 unresolved inclusions; 5 syntax errors; 683 unresolved names (31%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.827
+!MESSAGE Indexed 'coreJSON_test' (23 sources, 3 headers) in 0.127 sec: 748 declarations; 6,403 references; 23 unresolved inclusions; 0 syntax errors; 962 unresolved names (12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.846
+!MESSAGE Indexed 'libacalg' (0 sources, 1 headers) in 0.019 sec: 22 declarations; 10 references; 1 unresolved inclusions; 0 syntax errors; 21 unresolved names (40%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.911
+!MESSAGE Indexed 'Device-Shadow-for-AWS-IoT-embedded-sdk' (5 sources, 4 headers) in 0.063 sec: 307 declarations; 2,480 references; 10 unresolved inclusions; 0 syntax errors; 452 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.929
+!MESSAGE Indexed 'backoffAlgorithm_test_unit-test' (1 sources, 1 headers) in 0.015 sec: 57 declarations; 236 references; 8 unresolved inclusions; 0 syntax errors; 54 unresolved names (16%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-03-24 14:52:14.969
+!MESSAGE Indexed 'system-test' (1 sources, 3 headers) in 0.038 sec: 344 declarations; 1,612 references; 19 unresolved inclusions; 1 syntax errors; 1,057 unresolved names (35%)
+
+!ENTRY org.eclipse.core.expressions 4 201 2023-03-24 14:53:43.994
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:131)
+	at org.eclipse.core.expressions.TestExpression.evaluate(TestExpression.java:104)
+	at org.eclipse.core.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:54)
+	at org.eclipse.core.expressions.AndExpression.evaluate(AndExpression.java:36)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:284)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:227)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:219)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:237)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:145)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:126)
+	at org.eclipse.ui.internal.navigator.resources.actions.PropertiesActionProvider.fillContextMenu(PropertiesActionProvider.java:56)
+	at org.eclipse.ui.navigator.NavigatorActionService$2.run(NavigatorActionService.java:228)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.navigator.NavigatorActionService.addCommonActionProviderMenu(NavigatorActionService.java:222)
+	at org.eclipse.ui.navigator.NavigatorActionService.fillContextMenu(NavigatorActionService.java:177)
+	at org.eclipse.ui.navigator.CommonNavigatorManager.fillContextMenu(CommonNavigatorManager.java:258)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5143)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4775)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:237)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-03-24 14:53:43.995
+!MESSAGE No property tester contributes a property org.eclipse.embedcdt.managedbuild.cross.core.isGnuMcu to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 15:02:18.730
+!MESSAGE [D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools\idf.py, confserver]
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 15:02:18.731
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP-37SLCFKI, PATH=D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310;C:\Python27;D:\cmake-3.24.2-windows-x86_64\bin;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\bin;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\libexec\git-core;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Python27;C:\Users\FangRong2494\AppData\Local\Programs\Python\Launcher\;C:\Users\FangRong2494\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;;D:\ESP_IDE\esp\Espressif\tools\idf-git\2.34.2\cmd, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, EFC_8288=1, USERNAME=FangRong2494, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\FangRong2494, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\FangRong2494\AppData\Local, USERDOMAIN=LAPTOP-37SLCFKI, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP-37SLCFKI, MinGW_HOME=D:\mingw64, IDF_TOOLS_PATH=D:\ESP_IDE\esp\Espressif, OneDrive=C:\Users\FangRong2494\OneDrive, APPDATA=C:\Users\FangRong2494\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310;C:\Python27;D:\cmake-3.24.2-windows-x86_64\bin;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\bin;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\libexec\git-core;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Python27;C:\Users\FangRong2494\AppData\Local\Programs\Python\Launcher\;C:\Users\FangRong2494\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;, OS=Windows_NT, COMPUTERNAME=LAPTOP-37SLCFKI, IDF_PATH=D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4/, PROCESSOR_REVISION=6001, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, =D:=D:\, SystemRoot=C:\WINDOWS, TEMP=C:\Users\FANGRO~1\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\FangRong2494, TMP=C:\Users\FANGRO~1\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16, IDF_PYTHON_ENV_PATH=D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.core 1 0 2023-03-24 15:02:18.732
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=LAPTOP-37SLCFKI, PATH=D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;D:\ESP_IDE\esp\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;D:\ESP_IDE\esp\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;D:\ESP_IDE\esp\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;D:\ESP_IDE\esp\Espressif\tools\cmake\3.20.3\bin;D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;D:\ESP_IDE\esp\Espressif\tools\ninja\1.10.2\;D:\ESP_IDE\esp\Espressif\tools\idf-exe\1.0.3\;D:\ESP_IDE\esp\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;D:\ESP_IDE\esp\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;D:\ESP_IDE\esp\Espressif\frameworks\esp-idf-v4.4\tools;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310;C:\Python27;D:\cmake-3.24.2-windows-x86_64\bin;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\bin;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\libexec\git-core;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Python27;C:\Users\FangRong2494\AppData\Local\Programs\Python\Launcher\;C:\Users\FangRong2494\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;;D:\ESP_IDE\esp\Espressif\tools\idf-git\2.34.2\cmd;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Users\FangRong2494\AppData\Roaming\Python\Python310;C:\Python27;D:\cmake-3.24.2-windows-x86_64\bin;C:\Program Files\VanDyke Software\Clients\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\bin;D:\ESP_IDE\esp\esp-idf\tools\idf-gif\Git\mingw64\libexec\git-core;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env\Scripts;D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env;C:\Users\FangRong2494\AppData\Roaming\Python\Python310\Scripts;C:\Python27;C:\Users\FangRong2494\AppData\Local\Programs\Python\Launcher\;C:\Users\FangRong2494\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;, PROCESSOR_LEVEL=23, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, __COMPAT_LAYER=DetectorsAppHealth, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OPENOCD_SCRIPTS=D:\ESP_IDE\esp\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, EFC_8288=1, USERNAME=FangRong2494, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\FangRong2494, PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\WINDOWS, =::=::\, LOCALAPPDATA=C:\Users\FangRong2494\AppData\Local, USERDOMAIN=LAPTOP-37SLCFKI, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\LAPTOP-37SLCFKI, MinGW_HOME=D:\mingw64, IDF_TOOLS_PATH=D:\ESP_IDE\esp\Espressif, OneDrive=C:\Users\FangRong2494\OneDrive, APPDATA=C:\Users\FangRong2494\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=LAPTOP-37SLCFKI, IDF_PATH=D:/ESP_IDE/esp/Espressif/frameworks/esp-idf-v4.4/, PROCESSOR_REVISION=6001, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, =D:=D:\, SystemRoot=C:\WINDOWS, TEMP=C:\Users\FANGRO~1\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\FangRong2494, TMP=C:\Users\FANGRO~1\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=16, IDF_PYTHON_ENV_PATH=D:\ESP_IDE\esp\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.sdk.config.ui 1 0 2023-03-24 15:02:19.436
+!MESSAGE Server connection closed
